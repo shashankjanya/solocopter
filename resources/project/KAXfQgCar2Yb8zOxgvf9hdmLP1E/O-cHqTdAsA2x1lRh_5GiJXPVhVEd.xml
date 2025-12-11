@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Info File="simulink/controller_tuning.slx" GroupUUID="" Icon="" Name="controller_tuning" Type="StartUp" Visible="0">
+    <Extension Name="StartUpPrev" Value="465571d2-61b7-4078-bd37-a4c56124b2d8"/>
+</Info>
