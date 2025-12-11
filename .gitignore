@@ -1,0 +1,50 @@
+# --- Temporary and Auto-generated files ---
+*.asv
+*.autosave
+*.bak
+*~
+
+# --- Simulink Cache & Artifacts (CRITICAL) ---
+# These are generated to speed up simulations but are binary and change often.
+# Do not version control these.
+*.slxc
+*.sdi
+
+# --- Simulation Data Inspector ---
+Simulink.sdi
+
+# --- Generated Code and Build Folders ---
+# Ignore folders created during model compilation (Simulink Coder/Embedded Coder)
+chapter2/
+slprj/
+_prj/
+*_ert_rtw/
+*_grt_rtw/
+*_sf.c
+*_sf.h
+*_sf.mex*
+
+# --- MATLAB Compiled Files (MEX) ---
+# Ignore platform-specific binaries
+*.mexw64
+*.mexw32
+*.mexa64
+*.mexmaci64
+*.mexmaci
+
+# --- Reports and HTML ---
+# Ignore generated report folders
+html/
+sl_cov/
+*.cvr
+
+# --- Protected/Obfuscated Code ---
+*.p
+
+# --- Large Data Files (Optional but Recommended) ---
+# If you store simulation results in .mat files, uncomment the line below
+# *.mat
+
+# --- Specific Toolboxes ---
+# Stateflow
+*.sfx
