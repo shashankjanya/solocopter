@@ -100,3 +100,8 @@ SIM.ref_height = 8.545594;
 
 Simulink.Bus.createObject(MAV);
 MAV_Bus = slBus1;
+
+%% INDI controller parameters
+INDI.ref_mdl.zeta = 0.8;
+INDI.ref_mdl.wn = 5;
+INDI.derivative.tau = 0.01;
