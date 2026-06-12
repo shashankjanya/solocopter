@@ -33,7 +33,7 @@ Standard multirotor equations do not apply directly to this vehicle. The forces 
 1. Clone this repository.
 2. Open MATLAB and navigate to the project directory.
 3. Run the initialization script (`matlab/init.m`) to load the UAV mass, inertia, and aerodynamic coefficients into the workspace.
-4. Open the Simulink model (`simulink/controller_t.slx`).
+4. Open the Simulink model (`simulink/controller_tuning.slx`).
 5. Run the simulation to view the solocopter fly a simple demo path. 
 
 ## Acknowledgments
