@@ -17,6 +17,7 @@ Simulink.sdi
 # Ignore folders created during model compilation (Simulink Coder/Embedded Coder)
 chapter2/
 slprj/
+resources/
 _prj/
 *_ert_rtw/
 *_grt_rtw/
