@@ -29,7 +29,7 @@ Standard multirotor equations do not apply directly to this vehicle. The forces 
     * **Inner Loop:** Rate PID controller converting rate errors to virtual torque commands. 
     * **Gain Scheduling:** PID outputs are inversely scaled by the throttle command to maintain consistent control authority across the flight envelope.
 
-## 🛠️ How to Run
+## How to Run
 1. Clone this repository.
 2. Open MATLAB and navigate to the project directory.
 3. Run the initialization script (`matlab/init.m`) to load the UAV mass, inertia, and aerodynamic coefficients into the workspace.
